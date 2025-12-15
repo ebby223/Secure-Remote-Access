@@ -15,12 +15,12 @@ $users = $conn->query("SELECT * FROM users ORDER BY id DESC");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <style>
         body {
-            background: #f5f7fa;
+            background: #a5b4cbff;
         }
         .sidebar {
             height: 100vh;
-            background: #343a40;
-            color: #fff;
+            background: #6b7782ff;
+            color: #edebebff;
             padding-top: 2rem;
         }
         .sidebar a {
